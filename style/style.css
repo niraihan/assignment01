@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Fira Sans", serif; */
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 21px 137px 21px 137px;
+    flex-direction: row;
 }
 .sing{
     padding: 15px 25px;
@@ -10,15 +14,184 @@ nav{
     font-size: 15px;
     font-weight: bold;
     color: white;
+    cursor: pointer;
 }
 .banner{
     display: flex;
     justify-content: space-between;
-    padding: 80px 100px 80px 100px;
+    /* flex-direction: row; */
+    
     background-color: rgb(198, 228, 214);
     margin: 120px   160px   0px 160px;
-    border-radius: 24px;
+    border-radius: 21px;
+    padding: 68px 85px 68px 85px;
+    /* padding: 80px 100px 80px 100px; */
+    margin-top: 17px;
 }
 .photo-one{
     width: 350px;
+}
+.btn-one{
+    background-color:rgb(0, 106, 80);
+    color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.bangla{
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 20px;
+    
+}
+.section-one{
+    margin: 68px   160px   0px 160px;
+    border-radius: 21px;
+    padding: 68px 85px 68px 85px;
+ 
+}
+.section-title{
+font-size: 35px;
+margin: 21px 0px;
+}
+.section-des{
+    font-size: 14px;
+    color: rgba(14, 14, 14, 0.7);
+    font-weight: 340;
+}
+.div-vision{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    
+}
+.container-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgba(84, 144, 245, 0.2);
+    /* box-sizing: border-box; */
+    border-radius: 16px;
+    padding: 20px;
+    gap: 10px;
+    /* margin: 0px 20px; */
+}
+.container-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: rgb(198, 228, 214);
+    /* box-sizing: border-box; */
+    border-radius: 16px;
+    padding: 20px;
+    gap: 10px;
+    /* margin: 0px 15px; */
+}
+.container-three{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgb(247, 235, 207);
+    /* box-sizing: border-box; */
+    border-radius: 16px;
+    padding: 20px;
+    gap: 10px;
+    /* margin: 0px 20px; */
+}
+.container-title{
+    margin: 10px 0px;
+    align-self: stretch;
+}
+.container-des{
+    font-size: 13.5px;
+    color: rgba(14, 14, 14, 0.7);
+    align-self: stretch;
+}
+.sub-button1{
+    color: rgb(252, 250, 250);
+    padding: 8px 13px 8px 13px;
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    border: none;
+    cursor: pointer;
+    /* font-size: 12px; */
+}
+.sub-button2{
+    color: rgb(252, 250, 250);
+    padding: 8px 13px 8px 13px;
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    border: none;
+    cursor: pointer;
+}
+.sub-button3{
+    color: rgb(252, 250, 250);
+    padding: 8px 13px 8px 13px;
+    border-radius: 8px;
+    background:rgb(255, 194, 57);
+    border: none;
+    cursor: pointer;
+}
+.section-two{
+    margin: 68px   160px   0px 160px;
+    border-radius: 21px;
+    padding: 68px 85px 68px 85px;
+}
+.head-line{
+    font-size: 35px;
+    margin: 20px 0px;
+}
+
+.news{
+    display: flex;
+    flex-direction:row ;
+    /* justify-content: space-between; */
+    gap: 27px;
+    /* background-color: brown; */
+    margin-bottom: 30px;
+    margin-top: 25px;
+    
+}
+.news-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    
+}
+.news-card-titel{
+    font-size: 27px;
+    padding: 0px;
+}
+.date{
+    font-size: 14px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.news-card-des{
+    font-size: 14px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.news-button{
+    padding: 8px 14px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: white;
+    fill: rgb(0, 106, 80) ;
+    border: none;
+    cursor: pointer;
+}
+.al-jazeera{
+    width: 112px;
+    height: 34px;
+}
+.photo{
+    width: 347px;
+    height: 260px;
+    border-radius: 20px;
 }
