@@ -217,6 +217,7 @@ margin: 21px 0px;
     gap: 20px;
     justify-content: center;
     flex-direction: row;
+    position: relative;
     
 }
 .amount{
@@ -226,6 +227,7 @@ margin: 21px 0px;
     font-size: 25px;
     border-radius: 10px;
     /* margin: 10px 20px; */
+    cursor: pointer;    
     
 }
 .button-text{
@@ -235,8 +237,10 @@ margin: 21px 0px;
     align-items: center;
 }
 .input-text{
-    width: 80%;
+    width: 100%;
+    height: 30px;
     text-align: center;
+    box-sizing: border-box;
 }
 .donate-buttoun{
     color: rgb(252, 250, 250);
@@ -260,21 +264,56 @@ label{
     position: relative;
    
 }
+.lable{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
 .email{
     border: none;
     padding: 20px;
-    /* border-radius: 8px 0px 0px 8px; */
+    border-radius: 8px 0px 0px 8px;
     background: rgb(255, 255, 255);
     width: 400px;
 }
 .subscribe{
-    /* position: absolute; */
+    position: absolute;
     border: none;
     padding: 20px;
     top: 0px;
     right: 0px;
     bottom: 0px;
-    /* border-radius: 0px 8px 8px 0px; */
+    border-radius: 0px 8px 8px 0px;
     background: rgb(0, 106, 80);
     
+}
+.section-five{
+    margin: 68px   160px   0px 160px;
+    border-radius: 21px;
+    padding: 68px 85px 68px 85px;
+    border-radius: 24px;
+    background: rgb(233, 230, 230);
+    display: flex;
+    flex-direction: column;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    height: min-content;
+    
+}
+.quotes{
+   margin-bottom: 0px;
+    text-align: start;
+    font-size: 30px;
+}
+.mujib{
+    text-align: start;
+    font-weight: bolder;
+    margin-bottom: 0px;
+    font-size: 30px;
+
+}
+.nation{
+    margin-top: 0px;
+    font-size: 20px;
 }
